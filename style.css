@@ -1,0 +1,65 @@
+body{
+    background-color: hsl(0, 0%, 86%);
+}
+
+.main{
+    height: 60vh;
+    width: 40vw;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: hsl(0, 0%, 94%);
+    border-radius: 3% 3% 30% 3%;
+    padding: 3vmax;
+}
+
+.attribution{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#dob{
+    display: inline-block;
+    width: 30%;
+    height: 90%;
+}
+
+input{
+    width: 70%;
+    border: 1px solid hsl(0, 0%, 86%);
+    background-color: hsl(0, 0%, 94%);
+}
+
+button{
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    align-items:flex-end;
+}
+
+.error{
+    display: block;
+    font-size:50% ;
+    color: red;
+}
+
+.input{
+    height: 20%;
+    margin-bottom: 5%;
+}
+
+.age{
+    color: blueviolet;
+}
+
+#age{
+    font-size: xx-large;
+}
+
+label{
+    display: block;
+}
